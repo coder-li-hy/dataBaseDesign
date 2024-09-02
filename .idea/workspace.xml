@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bd90000-2778-4442-bdec-2e2faea682f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/applicationStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/CompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/EPController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/LRController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/LevelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/PositionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/RequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/ResponseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/RightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/EP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/LR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Right.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/CompanyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/DepartmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/EPMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/LRMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/LevelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/PositionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/RequestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/ResponseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/RightMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ICompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IEPService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ILRService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ILevelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IPositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IRequestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IResponseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IRightService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/CompanyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/EPServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/LRServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/LevelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/PositionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/RequestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/ResponseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/RightServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.9.6-bin\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2lVAIruinAYFAi66KnJvVSJh6Om" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/dataBaseDesign/project/backEnd/project/src/main/java/org/smartcompany",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "E:/dataBaseDesign/project/backEnd/project/src/main/java/org/smartcompany/Main.java",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "46f86faa6bbf9ac94a7e459509a20ed0",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dataBaseDesign\project\backEnd\project\src\main\java\org\smartcompany" />
+      <recent name="E:\dataBaseDesign\project\backEnd\project\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.smartcompany" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.smartcompany.applicationStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bd90000-2778-4442-bdec-2e2faea682f5" name="Changes" comment="" />
+      <created>1725254794563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725254794563</updated>
+      <workItem from="1725254795575" duration="1100000" />
+      <workItem from="1725258293876" duration="757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
