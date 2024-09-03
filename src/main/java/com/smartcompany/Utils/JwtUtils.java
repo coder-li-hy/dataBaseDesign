@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class JwtUtils {
 
-    private static String signKey = "smarthelp";//生成签名密钥
+    private static String signKey = "smartcompany";//生成签名密钥
     private static Long expires = 3600000L;//生成有效时间一小时
 
     /**

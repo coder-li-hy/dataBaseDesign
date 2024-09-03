@@ -38,7 +38,7 @@ public class Request implements Serializable {
     /**
      * 请求权限等级
      */
-    private Integer rank;
+    private Integer lel;
 
     /**
      * 本次请求介绍
@@ -53,12 +53,12 @@ public class Request implements Serializable {
     /**
      * 权限请求请求对象（用户id）
      */
-    private Integer to;
+    private Integer target;
 
     /**
      * 用户id外键
      */
-    private Integer Eid;
+    private Integer eid;
 
 
     /**

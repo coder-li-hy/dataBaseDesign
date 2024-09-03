@@ -1,6 +1,6 @@
 package com.smartcompany.mapper;
 
-import com.smartcompany.entity.Right;
+import com.smartcompany.entity.Rights;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author lihy
  * @since 2024-09-02
  */
-public interface RightMapper extends BaseMapper<Right> {
+public interface RightMapper extends BaseMapper<Rights> {
 
 }

@@ -1,6 +1,6 @@
 package com.smartcompany.service;
 
-import com.smartcompany.entity.Right;
+import com.smartcompany.entity.Rights;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author lihy
  * @since 2024-09-02
  */
-public interface IRightService extends IService<Right> {
+public interface IRightService extends IService<Rights> {
 
 }

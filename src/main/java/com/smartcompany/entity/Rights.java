@@ -19,8 +19,8 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("right")
-public class Right implements Serializable {
+@TableName("rights")
+public class Rights implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

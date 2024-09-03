@@ -8,10 +8,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.smartcompany.common.R;
 import com.smartcompany.dto.EmployeeDto;
 import com.smartcompany.entity.*;
-import com.smartcompany.service.IELService;
-import com.smartcompany.service.IEmployeeService;
-import com.smartcompany.service.ILevelService;
-import com.smartcompany.service.IPositionService;
+import com.smartcompany.service.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -45,6 +42,12 @@ public class EmployeeController {
 
     @Autowired
     private IELService elService;
+
+    @Autowired
+    private IResponseService responseService;
+
+    @Autowired
+    private IRequestService requestService;
 
     /**
      * 根据传入参数和分页信息进行分页查询
@@ -139,6 +142,7 @@ public class EmployeeController {
      * @return
      */
     @PostMapping("/add")
+    @Transactional
     public R<String> add(@RequestBody EmployeeDto employee) {
         log.info("根据传入的参数修改员工信息");
         //1.进行非空判断
@@ -162,6 +166,29 @@ public class EmployeeController {
             elService.save(el);
         });
         return R.success("添加成功");
+    }
+
+
+    /**
+     * 根据id删除员工相应信息
+     * @param id
+     * @return
+     */
+    @DeleteMapping("/{id}")
+    public R<String> delete(@PathVariable Integer id) {
+        //1.删除在response表中所有与该员工相关的信息
+        LambdaUpdateWrapper<Response> responseWrapper = new LambdaUpdateWrapper<>();
+        responseWrapper.eq(Response::getEid, id);
+        responseService.remove(responseWrapper);
+        //2.删除在request表中所有与该员工相关的信息
+        LambdaUpdateWrapper<Request> requestWrapper = new LambdaUpdateWrapper<>();
+        requestWrapper.eq(Request::getEid, id);
+        requestService.remove(requestWrapper);
+        //3.删除在e-l表中所有与该员工相关的信息
+        LambdaUpdateWrapper<EL> elWrapper = new LambdaUpdateWrapper<>();
+        elWrapper.eq(EL::getEid, id);
+        elService.remove(elWrapper);
+        return R.success("删除成功");
     }
 }
 

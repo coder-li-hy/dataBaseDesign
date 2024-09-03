@@ -3,7 +3,6 @@ package com.smartcompany.dto;
 import com.smartcompany.entity.Employee;
 import com.smartcompany.entity.Level;
 import com.smartcompany.entity.Position;
-import com.smartcompany.entity.Right;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

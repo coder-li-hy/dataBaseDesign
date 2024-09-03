@@ -4,8 +4,11 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
@@ -20,6 +23,8 @@ import lombok.experimental.Accessors;
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("response")
+@AllArgsConstructor
+@NoArgsConstructor
 public class Response implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -46,7 +51,7 @@ public class Response implements Serializable {
     /**
      * 本次审核提起人id
      */
-    private Integer from;
+    private Integer ori;
 
     /**
      * 用户id外键
@@ -61,7 +66,7 @@ public class Response implements Serializable {
     /**
      * 请求权限等级
      */
-    private Integer rank;
+    private Integer lel;
 
 
 }
