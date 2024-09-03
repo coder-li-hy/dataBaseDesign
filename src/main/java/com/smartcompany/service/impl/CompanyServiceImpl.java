@@ -1,9 +1,9 @@
 package com.smartcompany.service.impl;
 
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.smartcompany.entity.Company;
-import com.smartcompany.service.ICompanyService;
 import com.smartcompany.mapper.CompanyMapper;
+import com.smartcompany.service.ICompanyService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**

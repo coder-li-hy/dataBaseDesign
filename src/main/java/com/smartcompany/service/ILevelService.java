@@ -1,11 +1,11 @@
 package com.smartcompany.service;
 
-import com.baomidou.mybatisplus.extension.service.IService;
 import com.smartcompany.entity.Level;
+import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * <p>
- * 职位等级表 服务类
+ * 具体职位表 服务类
  * </p>
  *
  * @author lihy

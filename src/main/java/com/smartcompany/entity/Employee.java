@@ -1,13 +1,12 @@
 package com.smartcompany.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-
-import java.io.Serializable;
 
 /**
  * <p>
@@ -55,6 +54,26 @@ public class Employee implements Serializable {
      * 员工每月薪资
      */
     private Integer salary;
+
+    /**
+     * 员工账号
+     */
+    private String account;
+
+    /**
+     * 员工电话
+     */
+    private String phone;
+
+    /**
+     * 员工状态 有禁用 正常 开除等状态
+     */
+    private String status;
+
+    /**
+     * 员工密码 初始密码为123456
+     */
+    private String password;
 
 
 }

@@ -1,11 +1,11 @@
 package com.smartcompany.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.smartcompany.entity.Level;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
  * <p>
- * 职位等级表 Mapper 接口
+ * 具体职位表 Mapper 接口
  * </p>
  *
  * @author lihy

@@ -10,10 +10,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Slf4j
 @SpringBootApplication
-@MapperScan(basePackages = {"com.reggie.reg.mapper"})
+@MapperScan(basePackages = {"com.smartcompany.mapper"})
 @ServletComponentScan
 @EnableTransactionManagement
-@EnableCaching // 开启SpringCache注解方式
 public class applicationStart {
     public static void main(String[] args) {
         SpringApplication.run(applicationStart.class, args);

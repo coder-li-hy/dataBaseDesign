@@ -1,7 +1,7 @@
 package com.smartcompany.mapper;
 
+import com.smartcompany.entity.EL;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.smartcompany.entity.EP;
 
 /**
  * <p>
@@ -11,6 +11,6 @@ import com.smartcompany.entity.EP;
  * @author lihy
  * @since 2024-09-02
  */
-public interface EPMapper extends BaseMapper<EP> {
+public interface ELMapper extends BaseMapper<EL> {
 
 }

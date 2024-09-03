@@ -2,6 +2,7 @@ package com.smartcompany.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
+
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2024-09-02
  */
 @RestController
-@RequestMapping("/e-p")
-public class EPController {
+@RequestMapping("/e-l")
+public class ELController {
 
 }

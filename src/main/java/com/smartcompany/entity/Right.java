@@ -1,13 +1,12 @@
 package com.smartcompany.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-
-import java.io.Serializable;
 
 /**
  * <p>
@@ -37,9 +36,9 @@ public class Right implements Serializable {
     private String type;
 
     /**
-     * 权限等级
+     * 权限介绍
      */
-    private Integer rank;
+    private String intro;
 
 
 }

@@ -1,14 +1,14 @@
 package com.smartcompany.service.impl;
 
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.smartcompany.entity.Level;
 import com.smartcompany.mapper.LevelMapper;
 import com.smartcompany.service.ILevelService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
  * <p>
- * 职位等级表 服务实现类
+ * 具体职位表 服务实现类
  * </p>
  *
  * @author lihy

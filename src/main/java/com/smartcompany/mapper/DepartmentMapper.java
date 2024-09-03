@@ -1,7 +1,7 @@
 package com.smartcompany.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.smartcompany.entity.Department;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
  * <p>

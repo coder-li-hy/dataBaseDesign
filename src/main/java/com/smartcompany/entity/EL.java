@@ -1,13 +1,12 @@
 package com.smartcompany.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-
-import java.io.Serializable;
 
 /**
  * <p>
@@ -20,8 +19,8 @@ import java.io.Serializable;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("e_p")
-public class EP implements Serializable {
+@TableName("e_l")
+public class EL implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -36,7 +35,7 @@ public class EP implements Serializable {
     /**
      * 职位id外键
      */
-    private Integer Pid;
+    private Integer Lid;
 
 
 }

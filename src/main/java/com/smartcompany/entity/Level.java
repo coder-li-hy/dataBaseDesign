@@ -1,17 +1,16 @@
 package com.smartcompany.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
-import java.io.Serializable;
-
 /**
  * <p>
- * 职位等级表
+ * 具体职位表
  * </p>
  *
  * @author lihy
@@ -34,17 +33,22 @@ public class Level implements Serializable {
     /**
      * 职务等级
      */
-    private Integer rank;
+    private Integer lel;
 
     /**
-     * 职务外键
+     * 职务类型外键
      */
-    private Integer Pid;
+    private Integer pid;
 
     /**
-     * 等级介绍
+     * 职务等级介绍
      */
     private String intro;
+
+    /**
+     * 职务名称
+     */
+    private String name;
 
 
 }

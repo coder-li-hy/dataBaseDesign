@@ -4,69 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bd90000-2778-4442-bdec-2e2faea682f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/applicationStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/CompanyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/EPController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/LRController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/LevelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/PositionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/RequestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/ResponseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/RightController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/EP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/LR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Right.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/CompanyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/DepartmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/EPMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/LRMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/LevelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/PositionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/RequestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/ResponseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/RightMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ICompanyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IDepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IEPService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IEmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ILRService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ILevelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IPositionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IRequestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IResponseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IRightService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/CompanyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/EPServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/LRServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/LevelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/PositionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/RequestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/ResponseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/RightServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="3bd90000-2778-4442-bdec-2e2faea682f5" name="Changes" comment="init project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/Utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/common/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/dto/EmployeeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/dto/JobDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ELMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/applicationStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/applicationStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/EPController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/ELController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/LRController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/LRController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/LevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/LevelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/PositionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/PositionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/RequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/RequestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/ResponseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/ResponseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/RightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/controller/RightController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/EP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/EL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/LR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/LR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Right.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/entity/Right.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/CompanyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/CompanyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/DepartmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/EPMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/ELMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/LRMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/LRMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/LevelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/LevelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/PositionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/PositionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/RequestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/RequestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/ResponseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/ResponseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/RightMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/mapper/RightMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ICompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ICompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IDepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IDepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IEPService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IELService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ILRService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ILRService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ILevelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/ILevelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IPositionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IPositionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IRequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IRequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IResponseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IResponseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IRightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/IRightService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/CompanyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/EPServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/ELServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/LRServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/LRServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/LevelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/LevelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/PositionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/PositionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/RequestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/RequestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/ResponseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/ResponseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/RightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smartcompany/service/impl/RightServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,41 +94,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/dataBaseDesign/project/backEnd/project/src/main/java/org/smartcompany",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "E:/dataBaseDesign/project/backEnd/project/src/main/java/org/smartcompany/Main.java",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "46f86faa6bbf9ac94a7e459509a20ed0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/dataBaseDesign/project/backEnd/project/src/main/java/org/smartcompany&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/dataBaseDesign/project/backEnd/project/src/main/java/org/smartcompany/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;46f86faa6bbf9ac94a7e459509a20ed0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\dataBaseDesign\project\backEnd\project\src\main\java\org\smartcompany" />
       <recent name="E:\dataBaseDesign\project\backEnd\project\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.smartcompany.Utils" />
+      <recent name="com.smartcompany.common" />
       <recent name="org.smartcompany" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="project" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.smartcompany.applicationStart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.smartcompany.applicationStart" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,11 +150,52 @@
       <option name="presentableId" value="Default" />
       <updated>1725254794563</updated>
       <workItem from="1725254795575" duration="1100000" />
-      <workItem from="1725258293876" duration="757000" />
+      <workItem from="1725258293876" duration="6440000" />
+      <workItem from="1725273383996" duration="1235000" />
+      <workItem from="1725275474178" duration="2970000" />
+      <workItem from="1725282198216" duration="1264000" />
+      <workItem from="1725321537172" duration="10513000" />
+      <workItem from="1725343235817" duration="2370000" />
     </task>
+    <task id="LOCAL-00001" summary="init project">
+      <option name="closed" value="true" />
+      <created>1725259200567</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725259200567</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/smartcompany/controller/EmployeeController.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,7 +1,7 @@
 package com.smartcompany.service;
 
+import com.smartcompany.entity.EL;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.smartcompany.entity.EP;
 
 /**
  * <p>
@@ -11,6 +11,6 @@ import com.smartcompany.entity.EP;
  * @author lihy
  * @since 2024-09-02
  */
-public interface IEPService extends IService<EP> {
+public interface IELService extends IService<EL> {
 
 }
