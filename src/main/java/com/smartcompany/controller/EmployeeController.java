@@ -131,6 +131,7 @@ public class EmployeeController {
         LambdaUpdateWrapper<EL> updateWrapper = new LambdaUpdateWrapper<>();
         Lid.stream().forEach(id -> {
             updateWrapper.eq(EL::getEid, employee.getId()).set(EL::getLid, id);
+            elService.update(updateWrapper);
         });
         return R.success("修改成功");
     }
@@ -188,6 +189,8 @@ public class EmployeeController {
         LambdaUpdateWrapper<EL> elWrapper = new LambdaUpdateWrapper<>();
         elWrapper.eq(EL::getEid, id);
         elService.remove(elWrapper);
+        //4.删除员工信息
+        employeeService.removeById(id);
         return R.success("删除成功");
     }
 }
